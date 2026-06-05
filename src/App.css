@@ -1,0 +1,115 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Card */
+.app-container {
+  width: 500px;
+  max-width: 90vw;
+
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.app-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Form */
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.task-input {
+  flex: 1;
+  padding: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 1rem;
+}
+
+.task-input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+/* Buttons */
+.add-btn,
+.delete-btn {
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+
+  padding: 12px 16px;
+  color: white;
+
+  transition: 0.2s ease;
+}
+
+.add-btn {
+  background-color: #4f46e5;
+}
+
+.add-btn:hover {
+  background-color: #4338ca;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+/* Task List */
+.task-list-title {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px;
+  margin-bottom: 10px;
+
+  background-color: #f8fafc;
+  border-radius: 8px;
+}
+
+.task-text {
+  color: #333;
+  word-break: break-word;
+}
+
+.empty-message {
+  text-align: center;
+  color: #777;
+  margin-top: 1rem;
+}
