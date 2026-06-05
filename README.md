@@ -1,16 +1,57 @@
-# React + Vite
+# Basic Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task management application built with React and Vite. Users can add tasks, view tasks, and delete tasks through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks
+* Display task list dynamically
+* Delete tasks
+* Input validation
+* Responsive and clean UI
 
-## React Compiler
+## Concepts Practiced
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React Components
+* JSX
+* useState Hook
+* Props
+* Controlled Components
+* Event Handling
+* List Rendering with map()
+* State Updates with filter()
+* Lifting State Up
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript
+* CSS
+
+## Project Structure
+
+src/
+├── components/
+│ ├── TaskForm.jsx
+│ └── TaskList.jsx
+├── App.jsx
+├── App.css
+└── main.jsx
+
+## Learning Outcomes
+
+This project was built to strengthen React fundamentals, including component-based architecture, state management, props, form handling, and dynamic UI rendering.
+
+## Future Enhancements
+
+* Mark tasks as completed
+* Task search functionality
+* Task filters
+* Local storage persistence
+* Edit task functionality
+* Task priorities and categories
+
+## Author
+
+Rama Krishna Reddy
