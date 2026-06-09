@@ -1,57 +1,34 @@
-# Basic Task Manager
+# Intermediate Task Manager
 
-A simple task management application built with React and Vite. Users can add tasks, view tasks, and delete tasks through a clean and responsive interface.
+A React-based task management application that helps users organize and track daily tasks efficiently.
 
 ## Features
 
 * Add new tasks
-* Display task list dynamically
 * Delete tasks
-* Input validation
-* Responsive and clean UI
+* Mark tasks as completed or pending
+* Search tasks in real time
+* Filter tasks by status (All, Completed, Pending)
+* View task statistics
+* Persist data using localStorage
+* Responsive user interface
 
-## Concepts Practiced
-
-* React Components
-* JSX
-* useState Hook
-* Props
-* Controlled Components
-* Event Handling
-* List Rendering with map()
-* State Updates with filter()
-* Lifting State Up
-
-## Tech Stack
+## Technologies Used
 
 * React
+* JavaScript (ES6+)
+* CSS3
 * Vite
-* JavaScript
-* CSS
+* Local Storage API
 
-## Project Structure
+## React Concepts Practiced
 
-src/
-├── components/
-│ ├── TaskForm.jsx
-│ └── TaskList.jsx
-├── App.jsx
-├── App.css
-└── main.jsx
-
-## Learning Outcomes
-
-This project was built to strengthen React fundamentals, including component-based architecture, state management, props, form handling, and dynamic UI rendering.
-
-## Future Enhancements
-
-* Mark tasks as completed
-* Task search functionality
-* Task filters
-* Local storage persistence
-* Edit task functionality
-* Task priorities and categories
-
-## Author
-
-Rama Krishna Reddy
+* useState
+* useEffect
+* Props
+* Controlled Components
+* Conditional Rendering
+* Dynamic Class Names
+* Array Methods (map, filter)
+* State Management
+* Local Storage Persistence
